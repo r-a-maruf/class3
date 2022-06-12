@@ -1,0 +1,92 @@
+body{
+	padding: 0px 80px ;
+	margin: auto;
+
+}
+a,a:hover{
+	text-decoration: none;
+}
+header{
+	padding: 20px 0px;
+	
+}
+header .nav{
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+header .nav .left{
+    width: 16%;
+    float: left;
+}
+header .nav .left img{
+	max-width: 50%;
+}
+header .nav .right ul{
+	
+
+}
+header .nav .right ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 15px;
+}
+header .nav .right ul li a{
+
+font-size: 18px;
+
+color:#1e266d;
+
+font-weight: 700;
+
+text-transform: capitalize;
+}
+header .nav .right ul li a:hover{
+	color: #01c;
+}
+
+header .nav .right .btn{
+	font-size: 18px;
+	padding: 8px 30px;
+	color: #fff;
+	background: #1e266d;
+	border-radius: 2px;
+	border: 1px solid #1e266d;
+	transition: .5s ease-in-out;
+}
+header .right .btn:hover{
+	background: transparent;
+	color: #010101;
+	border: 1px solid #1e266d;
+
+}
+.bannersection{}
+.bannersection .banner{
+	display: flex;
+	align-items: center;
+}
+.bannersection .banner .content{}
+.bannersection .banner .content h2{
+	font-size: 45px;
+    color: #1e266d;
+    line-height: 50px;
+    font-weight: 700;
+}
+.bannersection .banner .content p{
+	 margin-bottom: 35px;
+    margin-top: 20px;
+    font-size: 22px;
+    color: #1e266d;
+    line-height: 28px;
+    font-weight: 300;
+}
+.bannersection .banner .content a{
+	font-size: 18px;
+	padding: 18px 30px;
+	color: #fff;
+	background: #1e266d;
+	text-transform: capitalize;
+	border-radius: 10px;
+	border: 1px solid #1e266d;
+}
+.bannersection .banner .image{}
